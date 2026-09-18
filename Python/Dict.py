@@ -21,3 +21,14 @@ print(dice_3)
 #IV
 dice_4 = dict(zip(['name', 'age'], ['Pedro', 33]))
 print(dice_4)
+
+
+# ALTERANDO VALORES
+
+produto = dict(zip(['product', 'price', 'quantity'], ['Som', 3000, 10])) 
+
+print(produto)
+
+#Alterando Estoque
+produto['quantity'] = 8
+print(produto)
