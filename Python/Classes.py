@@ -1,5 +1,5 @@
 class Pessoa : 
-    def _init_(self, nome, idade):
+    def __init__(self, nome, idade):
         self.nome = nome
         self.idade = idade
     def cumprimentar(self):
